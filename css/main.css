@@ -1,0 +1,191 @@
+body{
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+.nav{
+    flex: auto;
+    height: 200 px
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 84px;
+    overflow: hidden;
+    padding-right: 93px 
+
+  }
+
+li {
+font-size: 24px ;
+float: right;
+padding-left: 64px
+} 
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    
+  }
+
+hr {
+    width: 92%;
+    text-align:center;
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+.typewriter{
+    margin-top: 179px;
+    height: 720px;
+    margin-left: 489px;
+    margin-right: 539px;
+    font-size: 24px;
+}
+.typewriter #sub-js{
+    margin-left: 20px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.typewriter #desc1, #head{
+    padding-top: 10px;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.typewriter #main{
+    padding-top: 10px;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.typewriter p{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter #main{
+    white-space: normal;
+    text-indent: 2em;
+    top: 0%;
+}
+
+
+.typewriter #sub-js {
+    width: 100%;
+    -webkit-animation: type 3s steps(80, end);
+    animation: type 3s steps(80, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+.typewriter #desc1{
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: type2 3s steps(80, end);
+    animation: type2 3s steps(80, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+.typewriter #main {
+    width: 1200px;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+ 
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @keyframes type3 {
+    0% {
+      width: 0;
+      height: 0px;
+    }
+    1% {
+      opacity: 1;
+      height: 10px;
+    }
+
+    100% {
+      opacity: 1;
+      height: 720px;
+    }
+
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
